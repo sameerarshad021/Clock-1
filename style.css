@@ -53,3 +53,55 @@ body{
   font-size:14px;
   letter-spacing:2px;
 }
+
+@media (max-width: 600px) {
+  .timer {
+    gap: 20px;
+  }
+
+  .circle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .circle::before {
+    width: 105px;
+    height: 105px;
+  }
+
+  .value {
+    font-size: 38px;
+  }
+
+  .label {
+    font-size: 12px;
+    bottom: -28px;
+  }
+}
+
+/* Very small phones (≤ 380px) */
+@media (max-width: 380px) {
+  .timer {
+    gap: 16px;
+  }
+
+  .circle {
+    width: 110px;
+    height: 110px;
+  }
+
+  .circle::before {
+    width: 88px;
+    height: 88px;
+  }
+
+  .value {
+    font-size: 32px;
+  }
+
+  .label {
+    font-size: 11px;
+    bottom: -24px;
+    letter-spacing: 1.5px;
+  }
+}
