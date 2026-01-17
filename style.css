@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#050505;
+  font-family:'Orbitron', sans-serif;
+}
+
+.timer{
+  display:flex;
+  gap:40px;
+}
+
+.circle{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:
+    repeating-conic-gradient(
+      #00eaff 0deg 2deg,
+      transparent 2deg 6deg
+    );
+}
+
+.circle::before{
+  content:"";
+  position:absolute;
+  width:130px;
+  height:130px;
+  background:#050505;
+  border-radius:50%;
+}
+
+.value{
+  position:relative;
+  font-size:48px;
+  color:#00eaff;
+  text-shadow:0 0 15px #00eaff;
+}
+
+.label{
+  position:absolute;
+  bottom:-35px;
+  width:100%;
+  text-align:center;
+  color:#00eaff;
+  font-size:14px;
+  letter-spacing:2px;
+}
