@@ -56,13 +56,15 @@ body{
 
 @media (max-width: 600px) {
   .timer {
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .circle {
     width: 130px;
     height: 130px;
+    
   }
 
   .circle::before {
@@ -83,13 +85,16 @@ body{
 /* Very small phones (≤ 380px) */
 @media (max-width: 380px) {
   .timer {
-    gap: 16px;
+    gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
+    
   }
 
   .circle {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
+   
   }
 
   .circle::before {
@@ -98,7 +103,7 @@ body{
   }
 
   .value {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .label {
