@@ -68,8 +68,8 @@ body{
   }
 
   .circle::before {
-    width: 105px;
-    height: 105px;
+    width: 88px;
+    height: 88px;
   }
 
   .value {
@@ -98,8 +98,8 @@ body{
   }
 
   .circle::before {
-    width: 88px;
-    height: 88px;
+    width: 75px;
+    height: 75px;
   }
 
   .value {
