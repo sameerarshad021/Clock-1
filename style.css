@@ -57,6 +57,7 @@ body{
 @media (max-width: 600px) {
   .timer {
     gap: 20px;
+    flex-wrap: wrap;
   }
 
   .circle {
@@ -83,6 +84,7 @@ body{
 @media (max-width: 380px) {
   .timer {
     gap: 16px;
+    flex-wrap: wrap;
   }
 
   .circle {
